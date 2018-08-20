@@ -13,11 +13,16 @@
   </head>
   <body>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+      <!-- .slide class adds a CSS transition and animation effect, which makes the items slide when showing a new item  -->
+      <!-- data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads -->
+      <!-- Indicators: (little dots at the bottom of each slide (which indicates how many slides there is in the carousel, and which slide the user are currently viewing)) -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!-- The indicators are specified in an ordered list with class .carousel-indicators. -->
+        <!-- The data-target attribute points to the id of the carousel. -->
+        <!-- The data-slide-to attribute specifies which slide to go to, when clicking on the specific dot. -->
       </ol>
 
       <!-- Wrapper for slides -->
